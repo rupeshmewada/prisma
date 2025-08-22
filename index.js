@@ -12,10 +12,17 @@ async function main() {
 //     },
 //   })
 
+
   const allUsers = await prisma.user.findMany({  })
   console.dir(allUsers)
 
 }
+
+// git remote add origin git@github.com:vsgeek/KCHrPortal.git
+// git branch -M main
+// git push -u origin main
+
+// git@github.com:rupeshmewada/prisma.git
 
 
 
